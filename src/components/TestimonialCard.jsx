@@ -2,11 +2,11 @@ const TestimonialCard = ({ data }) => {
   const { img, desc, author, destination } = data;
   return (
     <li>
-      <div class="testimonial-item">
-        <img src={img} alt="icon" class="testimonial-icons" />
+      <div className="testimonial-item">
+        <img src={img} alt="icon" className="testimonial-icons" />
         <p>{desc}</p>
-        <h6 class="testimonial-author">{author}</h6>
-        <p class="testimonial-destination">{destination}</p>
+        <h6 className="testimonial-author">{author}</h6>
+        <p className="testimonial-destination">{destination}</p>
       </div>
     </li>
   );

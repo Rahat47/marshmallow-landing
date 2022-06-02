@@ -28,39 +28,43 @@
 
 /*-------------------------------------------------------------------*/
 /* === Import Bootstrap functions and variables === */
-@import '../node_modules/bootstrap/scss/functions';
-@import '../node_modules/bootstrap/scss/variables';
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
 
 /*-------------------------------------------------------------------*/
 /* === Import template variables === */
-@import './styles/scss/variables';
+@import "./styles/scss/variables";
 
 /*-------------------------------------------------------------------*/
 /* === SCSS Compass Functions === */
-@import '../node_modules/compass-mixins/lib/compass';
-@import '../node_modules/compass-mixins/lib/animate';
+@import "../node_modules/compass-mixins/lib/compass";
+@import "../node_modules/compass-mixins/lib/animate";
 
 /*-------------------------------------------------------------------*/
 /* === Boostrap Main SCSS === */
-@import '../node_modules/bootstrap/scss/bootstrap';
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 /*-------------------------------------------------------------------*/
 
 /*-------------------------------------------------------------------*/
 /* === Core Styles === */
-@import './styles/scss/reset';
-@import './styles/scss/fonts';
-@import './styles/scss/typography';
-@import './styles/scss/footer';
-@import './styles/scss/navbar';
-@import './styles/scss/main';
-@import './styles/scss/testimonial';
-@import './styles/scss/pricing';
+@import "./styles/scss/reset";
+@import "./styles/scss/fonts";
+@import "./styles/scss/typography";
+@import "./styles/scss/footer";
+@import "./styles/scss/navbar";
+@import "./styles/scss/main";
+@import "./styles/scss/testimonial";
+@import "./styles/scss/pricing";
 
 /*-------------------------------------------------------------------*/
 /* === Components === */
-@import './styles/scss/components/buttons';
-@import './styles/scss/components/forms';
-@import './styles/scss/components/toggle-switch';
-@import './styles/scss/components/owl-carousel';
-@import './styles/scss/components/flipster';
+@import "./styles/scss/components/buttons";
+@import "./styles/scss/components/forms";
+@import "./styles/scss/components/toggle-switch";
+@import "./styles/scss/components/owl-carousel";
+@import "./styles/scss/components/flipster";
+
+/*-------------------------------------------------------------------*/
+/* === Custom === */
+@import "./styles/scss/custom";

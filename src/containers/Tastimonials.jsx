@@ -37,22 +37,22 @@ const Tastimonials = () => {
     },
   ];
   return (
-    <section class="testimonial" id="testimonial">
-      <div class="container">
-        <div class="row  mt-md-0 mt-lg-4">
-          <div class="col-sm-6 text-white" data-aos="fade-up">
-            <p class="font-weight-bold mb-3">Testimonials</p>
-            <h3 class="font-weight-medium">
+    <section className="testimonial" id="testimonial">
+      <div className="container">
+        <div className="row  mt-md-0 mt-lg-4">
+          <div className="col-sm-6 text-white" data-aos="fade-up">
+            <p className="font-weight-bold mb-3">Testimonials</p>
+            <h3 className="font-weight-medium">
               Our customers are our <br />
               biggest fans
             </h3>
-            <ul class="flipster-custom-nav">
+            <ul className="flipster-custom-nav">
               {testimonialData.map((data, index) => (
                 <TestimonialIcon key={index} data={data} />
               ))}
             </ul>
           </div>
-          <div class="col-sm-6" data-aos="fade-up">
+          <div className="col-sm-6" data-aos="fade-up">
             <div id="testimonial-flipster">
               <ul>
                 {testimonialData.map((data, index) => (
